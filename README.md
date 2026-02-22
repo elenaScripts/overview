@@ -4,7 +4,7 @@ A personal portfolio and blog website built with Hugo static site generator, sho
 
 ## About
 
-This is the personal website of Elena Baskakova, a technical writer specializing in software documentation and APIs. The site features a portfolio of documentation projects, writing samples, and information about technical writing services.
+This is the personal website of a technical writer specializing in software documentation and APIs. The site features a portfolio of documentation projects, writing samples, and information about technical writing services.
 
 ## Features
 
@@ -130,15 +130,6 @@ The site includes:
   - Troubleshooting guides
   - And more
 
-## Featured Work
-
-The site showcases documentation work for:
-
-- 🚀 **Yandex**: Cloud, ID, Pay SDK, Turbo Pages, Weather APIs
-- ⚡ **ClickHouse**: Database documentation
-- 📜 **CatBoost**: Machine learning library documentation
-- 🤖 **Cognigy**: Chat and voice bot documentation (Work in Progress)
-
 ## Customization
 
 ### Styling
@@ -168,15 +159,6 @@ Simply deploy the contents of the `public/` directory after running `hugo`.
 
 Content is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
-## Contact
-
-- 📧 Email: [elena.baskakova.93@gmail.com](mailto:elena.baskakova.93@gmail.com)
-- 💼 LinkedIn: [Elena Baskakova](https://www.linkedin.com/in/elena-baskakova/)
-- 🐱 GitHub: [elenaspb2019](https://github.com/elenaspb2019/)
-
-## Contributing
-
-This is a personal portfolio site. For suggestions or feedback, please reach out via the contact information above.
 
 ---
 

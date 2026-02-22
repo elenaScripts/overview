@@ -1,0 +1,27 @@
+name: Report documentation readability
+
+# Run on pull requests so it comments readability metrics
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '**/*.mdx'
+
+jobs:
+  readability-report:
+    name: Report readability
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          # Ensure full history is fetched so Lexi can analyze changes
+          fetch-depth: 0
+
+      - name: Run Lexi Readability Report
+        uses: Rebilly/lexi@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # Analyze both Markdown and MDX
+          glob: '**/*.{md,mdx}'

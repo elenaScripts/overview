@@ -155,11 +155,6 @@ The `public/` directory contains the generated static site that can be deployed 
 
 Simply deploy the contents of the `public/` directory after running `hugo`.
 
-## License
-
-Content is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
-
-
 ---
 
 Built with ❤️ using [Hugo](https://gohugo.io/)
